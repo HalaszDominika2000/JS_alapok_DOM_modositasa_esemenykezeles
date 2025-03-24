@@ -43,7 +43,7 @@ function esemenyKezeles1() {
     const ELEM6=document.querySelectorAll(".lista")[0]
     ELEM6.addEventListener("click", myFunction);
 
-function myFunction() {
-  document.getElementsByClassName("kattintasutan").innerHTML = ELEM6.innerHTML;
-}
+    function myFunction() {
+        document.getElementsByClassName("kattintasutan").innerHTML = ELEM6.innerHTML;
+    }
 }
